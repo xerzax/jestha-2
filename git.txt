@@ -2,8 +2,18 @@
 2. git remote add origin https://github.com/xerzax/jestha-2
 3. to check if linked or not 
 git remote -v
-git status- compares online repo and local systems repository
 U - untracked files// new files
 A - added// when we do git add filename
 M - modified existing filename
 
+4. git add <file_name> // for adding individual files
+or git add . // to add all files
+5. git commit -m "message of what youve done"
+eg- git push  matra garne- everytime master ma jancha after youve entered git push upstream bla bla
+
+git status- compares online repo and local systems repository
+
+branches
+ -eg main, master branches
+
+ to find modified changes- git status
