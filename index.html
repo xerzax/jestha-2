@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- external css linked -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- internal css -->
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <a href="https://www.google.com/">Google</a>
+      <a href="https://www.youtube.com/">Youtube</a>
+      <!-- relative path -->
+      <!-- <a href="aboutus.html">about us</a> -->
+      <a href="#" class="active">Home</a>
+      <a href="./aboutus.html">about us</a>
+      <a href="./courses/python.html">python</a>
+      <a href="./courses/upcoming/qa.html">QA</a>
+      <a href="./combinedSelector.html">combinedSelector</a>
+      <a href="./score.html">score</a>
+      <!-- absolute path that only works for our folders in the system -->
+    </header>
+    <hr />
+    <h1>Web course</h1>
+    <hr />
+    <img
+      src="https://www.onlinecoursereport.com/wp-content/uploads/2020/07/shutterstock_394793860-1024x784.jpg"
+      alt="web image"
+      width="1200"
+      height="600"
+    />
+    <img
+      src="./assets/images/wp8933773-spring-anime-view-wallpapers.jpg"
+      alt="anime bg"
+      width="1200"
+      height="600"
+    />
+    <img src="web3.jpg" alt="no pic" />
+    <!-- <h1> MERN</h1> -->
+    <!--  not more than one h1 is appropriate -->
+    <!--  ctrl + / for comments -->
+    <hr />
+    <h2>
+      <ul>
+        <li>box sizing</li>
+        <li>
+          <p id="simple-text">combination of selectors</p>
+          <ul>
+            <li>descendant selector</li>
+          </ul>
+        </li>
+      </ul>
+    </h2>
+    <h2>box model</h2>
+    <ul>
+      <li>margin</li>
+      <li>padding</li>
+      <li>border</li>
+    </ul>
+    <h2>css types</h2>
+    <ul>
+      <li style="color: red">inline css</li>
+      <li>internal</li>
+      <li>external</li>
+    </ul>
+    <h2>Elements</h2>
+    <ul>
+      <li>block</li>
+      <li>inline</li>
+      <li>inline-block</li>
+    </ul>
+    <hr />
+    <!-- never write texts as it is,but inside h tags or p tag  -->
+    <!-- inline css -->
+    <p class="text-red">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, eos!
+      Laudantium, eveniet quam? Labore ipsum architecto atque ab obcaecati
+      consequuntur eveniet dolorem hic! Odit facere quisquam at, libero
+      perferendis nam.
+    </p>
+    <hr />
+    <!-- view - word wrap to wrap up long sentences -->
+    <h2>Attributes</h2>
+    <ol type="I">
+      <li>name</li>
+      <li>id</li>
+      <li>class</li>
+      <li>for</li>
+      <li>value</li>
+    </ol>
+    <hr />
+    <p class="text-red">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
+      repudiandae modi natus sit voluptatibus libero commodi quae labore,
+      tempore optio molestiae provident cumque debitis tenetur qui in dolore
+      consequatur minus.
+    </p>
+    <hr />
+    <h2>Links</h2>
+    <hr />
+    <ul>
+      <li>absolute path</li>
+      <li class="text-xl text-bold"><i>relative path</i></li>
+    </ul>
+    <hr />
+    <h2>Table</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mobile</td>
+          <td>1</td>
+          <td>10000</td>
+        </tr>
+        <tr>
+          <td>Phone</td>
+          <td>2</td>
+          <td>20000</td>
+        </tr>
+        <tr>
+          <td>Laptop</td>
+          <td>3</td>
+          <td>30000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2" id="table-one-total" class="table-total text-red">
+            Total
+          </td>
+          <td>30000</td>
+        </tr>
+      </tfoot>
+    </table>
+    <table id="table-two">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mobile</td>
+          <td>1</td>
+          <td>10000</td>
+        </tr>
+        <tr>
+          <td>Phone</td>
+          <td>2</td>
+          <td>20000</td>
+        </tr>
+        <tr>
+          <td>Laptop</td>
+          <td>3</td>
+          <td>30000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2" id="table-two-total" class="table-total text-red">
+            Total
+          </td>
+          <td>30000</td>
+        </tr>
+      </tfoot>
+    </table>
+    <table class="table-3">
+      <thead>
+        <tr>
+          <th colspan="2">Name</th>
+          <th></th>
+          <th rowspan="2">Email</th>
+        </tr>
+        <tr>
+          <td>first</td>
+          <td>middle</td>
+          <td>last</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ram</td>
+          <td>Bdr</td>
+          <td>Sharma</td>
+          <td>r@r.com</td>
+        </tr>
+        <tr>
+          <td>rajesh</td>
+          <td></td>
+          <td>hamal</td>
+          <td>r@h.com</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- footer is a semantic tag(tags with) -->
+    <footer>
+      <!-- absolute path -->
+      <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+      <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+      <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+    </footer>
+  </body>
+</html>
