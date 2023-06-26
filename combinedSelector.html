@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+      }
+
+      h1,
+      h2,
+      hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      ul {
+        padding-left: 32px;
+      }
+
+      p {
+        padding: 16px;
+      }
+
+      .box {
+        border: 10px solid black;
+        width: 375px;
+        padding: 20px;
+        margin: 10px;
+      }
+
+      .box .text-red {
+        color: red;
+      }
+
+      .small {
+        width: 200px;
+      }
+
+      a.active {
+        color: red;
+      }
+
+      .cards {
+        border: 1px solid;
+        text-align: center;
+        margin: 16px 8px;
+        height: 300px;
+        width: 300px;
+      }
+
+      .cards h2{
+        color: red;
+      }
+
+      .cards.active{
+        border: 1px solid red;
+        box-shadow: 5px 5px 14px;
+      }
+
+      /* pseudo class */
+      header a:hover{
+        color: hotpink;
+      }
+
+      .cards:hover{ 
+        border: 1px solid red;
+        box-shadow: 5px 5px 14px;
+      }
+      
+
+      /* div p{
+        color: red;
+      } */
+
+      /* p.text-red {
+        color: red;
+      }
+
+      button.active {
+        color: black;
+      } */
+      
+      /* span.noUn{
+        text-decoration: none;
+      } */
+      /* a span.noun{
+        text-decoration: none;
+      } */
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html">Home</a>
+      <a href="./aboutus.html">about us</a>
+      <a href="./courses/python.html">python</a>
+      <a href="./courses/upcoming/qa.html">QA</a>
+      <a href="./combinedSelector.html" class="active"><span class="underline">combined</span>
+      <span class="noUn">selector</span></a>
+    </header>
+    <div class="cards">
+      <h2>$100</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi nulla
+        nemo dicta ullam, cum et facilis quibusdam doloribus tempora excepturi
+        vero numquam harum nihil id tempore. Eligendi, cupiditate. Dicta,
+        magnam?
+      </p>
+    </div>
+    <div class="cards active">
+      <h2>$50</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi nulla
+        nemo dicta ullam, cum et facilis quibusdam doloribus tempora excepturi
+        vero numquam harum nihil id tempore. Eligendi, cupiditate. Dicta,
+        magnam?
+      </p>
+    </div>
+    <div class="cards">
+      <h2>$25</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi nulla
+        nemo dicta ullam, cum et facilis quibusdam doloribus tempora excepturi
+        vero numquam harum nihil id tempore. Eligendi, cupiditate. Dicta,
+        magnam?
+      </p>
+    </div>
+    <hr>
+    <h1>combination of selectors</h1>
+    <hr />
+    <h2>Selector types</h2>
+    <ul>
+      <li><a href="https://www.facebook.com">universal</a></li>
+      <li>id</li>
+      <li>class</li>
+      <li>element/tags</li>
+    </ul>
+    <hr />
+    <h2>combined selector types</h2>
+    <ul>
+      <li>descendant</li>
+      <li>or</li>
+      <li>and</li>
+      <li>attritube</li>
+      <li>general selector</li>
+      <li>adjacent selector</li>
+    </ul>
+    <hr />
+    <h2>Box sizing: Border-box</h2>
+    <div class="box">
+      <p class="text-red">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+        blanditiis, quasi, dolore esse officiis, est assumenda at neque sequi
+        maxime deleniti? Incidunt corrupti temporibus facilis vel omnis quisquam
+        aperiam? Quas!
+      </p>
+      <p class="text-red">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+        nostrum rem facilis placeat, explicabo modi architecto saepe totam
+        voluptatem, soluta laborum, adipisci aliquam quibusdam earum. Labore,
+        similique! Aperiam, libero distinctio?
+      </p>
+    </div>
+    <hr />
+    <div class="box small">
+      <p>small box</p>
+    </div>
+    <hr />
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nostrum
+      rem facilis placeat, explicabo modi architecto saepe totam voluptatem,
+      soluta laborum, adipisci aliquam quibusdam earum. Labore, similique!
+      Aperiam, libero distinctio?
+    </p>
+    <p class="text-red">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nostrum
+      rem facilis placeat, explicabo modi architecto saepe totam voluptatem,
+      soluta laborum, adipisci aliquam quibusdam earum. Labore, similique!
+      Aperiam, libero distinctio?
+    </p>
+    <button class="active">submit</button>
+    <hr />
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur,
+        tempore minus quibusdam minima incidunt accusamus! Possimus sit totam
+        in! Culpa omnis alias natus quam, aut harum iste cumque error. Porro?
+      </p>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, tempore
+      minus quibusdam minima incidunt accusamus! Possimus sit totam in! Culpa
+      omnis alias natus quam, aut harum iste cumque error. Porro?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, tempore
+      minus quibusdam minima incidunt accusamus! Possimus sit totam in! Culpa
+      omnis alias natus quam, aut harum iste cumque error. Porro?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, tempore
+      minus quibusdam minima incidunt accusamus! Possimus sit totam in! Culpa
+      omnis alias natus quam, aut harum iste cumque error. Porro?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, tempore
+      minus quibusdam minima incidunt accusamus! Possimus sit totam in! Culpa
+      omnis alias natus quam, aut harum iste cumque error. Porro?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, tempore
+      minus quibusdam minima incidunt accusamus! Possimus sit totam in! Culpa
+      omnis alias natus quam, aut harum iste cumque error. Porro?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, tempore
+      minus quibusdam minima incidunt accusamus! Possimus sit totam in! Culpa
+      omnis alias natus quam, aut harum iste cumque error. Porro?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, tempore
+      minus quibusdam minima incidunt accusamus! Possimus sit totam in! Culpa
+      omnis alias natus quam, aut harum iste cumque error. Porro?
+    </p>
+  </body>
+</html>

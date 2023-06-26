@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      .boxes {
+        /* thakka body yesko parent so, thakka parent ko half lagcha */
+        width: 50%;
+        height: 500px;
+        background-color: teal;
+        /* padding: 50%; */
+      }
+      .box {
+        height: 25%;
+        width: 50%;
+        border: 1px solid black;
+        color: white;
+      }
+      .red {
+        background-color: red;
+      }
+      .green {
+        background-color: green;
+      }
+      .blue {
+        background-color: blue;
+      }
+      /* div ko first element */
+      div:first-child {
+        background-color: red;
+      }
+      div:nth-child(2) {
+        background-color: green;
+      }
+      div:nth-child(3) {
+        background-color: blue;
+      }
+
+      /* yo voli vannu huncha sir le lol */
+
+      div:last-child {
+        background-color: orange;
+      }
+      /* section p:not(.plain){
+        color: red;
+      } */
+      section p:not(:first-child) {
+        color: red;
+      }
+      input:focus {
+        border: 1px solid red;
+        /* outline because black nai dekhyo, override vayo */
+        outline: none;
+      }
+      /* note- focus also works */
+      button:active {
+        background-color: red;
+      }
+
+      a:active {
+        color: orange;
+      }
+
+      
+      .big-text{
+          font-size: 24px;
+        }
+        /* 1em = 24px */
+        /* 1rem= always 16px */
+        section p {
+          font-size: 2em;
+          font-size: 2rem;
+          font-size: 32px;
+        }
+
+        /* 
+        normal font size- 16pc
+        if width>1400px */
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="#">home</a>
+      <a href="#">about</a>
+      <a href="#">contact</a>
+    </nav>
+    <h1>Pseudo Classes</h1>
+    <section class="boxes">
+      <div class="box">box-1</div>
+      <div class="box">box-2</div>
+      <div class="box">box-3</div>
+      <div class="box">box-4</div>
+    </section>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci quasi
+      natus deserunt, numquam voluptate, provident odit nam blanditiis, vel
+      quidem voluptatum? Iure fugit consequuntur asperiores, earum
+      necessitatibus quibusdam culpa assumenda.
+    </p>
+    <section class="big-text">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut numquam
+        officiis odit sed? Adipisci fugiat, vero assumenda eaque atque ipsa
+        quibusdam dolores magni praesentium impedit beatae laboriosam iusto,
+        architecto odio.
+      </p>
+      <p class="plain">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut numquam
+        officiis odit sed? Adipisci fugiat, vero assumenda eaque atque ipsa
+        quibusdam dolores magni praesentium impedit beatae laboriosam iusto,
+        architecto odio.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut numquam
+        officiis odit sed? Adipisci fugiat, vero assumenda eaque atque ipsa
+        quibusdam dolores magni praesentium impedit beatae laboriosam iusto,
+        architecto odio.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut numquam
+        officiis odit sed? Adipisci fugiat, vero assumenda eaque atque ipsa
+        quibusdam dolores magni praesentium impedit beatae laboriosam iusto,
+        architecto odio.
+      </p>
+    </section>
+    <form>
+      <input type="text" />
+      <input type="text" />
+      <button>submit</button>
+    </form>
+    <br />
+  </body>
+</html>

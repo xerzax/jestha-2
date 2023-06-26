@@ -1,0 +1,9 @@
+1. git init in terminal
+2. git remote add origin https://github.com/xerzax/jestha-2
+3. to check if linked or not 
+git remote -v
+git status- compares online repo and local systems repository
+U - untracked files// new files
+A - added// when we do git add filename
+M - message of what youve done
+

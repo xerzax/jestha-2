@@ -1,0 +1,94 @@
+/* external css */
+/* Syntax
+selectors {
+    css - property : property value
+    css - property : property value
+    selector 
+    - elements / tags selector
+    eg body, img, h1 etc
+}
+*/
+body {
+    background-color: wheat;
+}
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+a {
+    color:hotpink;
+    font-size: 20px;
+}
+th,td{
+    border: 1px solid black;
+}
+
+h2 {
+    color: red;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+p{
+    text-align: justify;
+    border: 1px solid red;
+    padding: 16px;
+    margin-left: 48px;
+    font-size: 30px;
+}
+
+#table-two{
+    margin-top: 30px;
+}
+
+/* id css
+    #table-two-total{
+    text-align: center;
+    font-weight: 600;
+}
+
+#table-one-total{
+    text-align: center;
+    font-weight: 600;
+
+} */
+/* class css */
+.table-total{
+    text-align: center;
+    font-weight: 600;
+}
+
+.text-red{
+    color: red;
+    /* border-color: black; */
+}
+/* .table-margin{
+    margin-left: 350px;
+} */
+
+.text-xl{
+    font-size: 24px;
+}
+.text-bold{
+    font-weight: bold;
+}
+
+#simple-text {
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: black;
+    font-size: 24px;
+}
+
+.table-3 {
+    margin-top: 10px;
+}
+.active{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}

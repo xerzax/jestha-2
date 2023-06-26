@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* class selector */
+      /* 010 */
+      .box {
+        height: 100px;
+        width: 100px;
+        border: 1px solid black;
+        color: white;
+      }
+      /* tag selector */
+      /* 001 */
+      div{
+        background-color: teal;
+        font-size: 48px;
+        text-transform: uppercase;
+      }
+      /* id selector */
+      /* 100 */
+      /* #black-box{
+        background-color: black;
+      } */
+      /* 012 */
+      body div.box{
+        background-color: cyan;
+      }
+      
+      /* specificity score - 011 */
+      div.box{
+        background-color: greenyellow;
+      }
+
+      .box{
+        background-color: red;
+      }
+      
+      div{
+        background-color: orange;
+      }
+      body div#orange-box.orange.box{
+        background-color: orange !important;
+      }
+
+    </style>
+  </head>
+  <body>
+    <a href="./index.html">Home</a>
+    <a href="./aboutus.html">about us</a>
+    <a href="./courses/python.html">python</a>
+    <a href="./courses/upcoming/qa.html">QA</a>
+    <a href="./combinedSelector.html" class="active"
+      ><span>combined</span> <span>selector</span></a
+    >
+    <a href="#">score</a>
+    <h1>specificity score// css priority order</h1>
+    <p> !important (use wisely)>inline css> id > class > tag/element</p>
+    <div class="box orange" id="orange-box" style="background-color: black;">box-1</div>
+    
+  </body>
+</html>
