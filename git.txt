@@ -5,5 +5,5 @@ git remote -v
 git status- compares online repo and local systems repository
 U - untracked files// new files
 A - added// when we do git add filename
-M - message of what youve done
+M - modified existing filename
 
