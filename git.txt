@@ -6,6 +6,7 @@ U - untracked files// new files
 A - added// when we do git add filename
 M - modified existing filename
 
+most important three steps in git
 4. git add <file_name> // for adding individual files
 or git add . // to add all files
 5. git commit -m "message of what youve done"
@@ -18,3 +19,21 @@ branches
 
  to find modified changes- git status
 
+1. to create new branches -git checkout -b branch-name
+2. to switch between branches 
+git checkout master-eg 
+3. to merge branches - git merge branch nameeg- git merge auth
+git pull - to just pull the code for daily changes made
+in case of collaborations- add friend - in order to change bugs in someones code
+terminal of another code= git add .
+git commit -m "bug fixes"
+git pull and push new changes
+same line of code ma changes vako cha vane
+
+git status
+git add .
+git commit -m "fix merge conflict"
+git push origin master
+
+ to delete local(system ma vako) branch - git branch --delete auth
+ to delete it from online branch from online space - git push  origin -d auth
