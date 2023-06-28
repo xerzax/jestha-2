@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'Belanosima', sans-serif;;
+        }
+        .flexbox{
+            background-color: cyan;
+            height: 300px;
+            /* to bring elements side by side */
+            display: flex; 
+            /* to move horizontally the contents of flex -space around,space evenly, center , end*/
+            justify-content: space-between;
+            /* for vertical axis movement of items in a flexbox */
+            align-items: center;
+            /* align items - baseline,center, */
+            color: white;
+
+        }
+        /* .wrapper{
+            height: 100%;
+            margin-left: 300px;
+        } */
+        .flex-item{
+            height: 25%;
+            width: 100px;
+            background-color:teal;
+            border: 1px solid white;
+            /* display: inline-block; */
+
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="flexbox">
+        <div class="wrapper">
+            <div class="flex-item">item</div>
+            <div class="flex-item">item</div>
+            <div class="flex-item">item</div>
+            <div class="flex-item">item</div>
+        </div>
+    </div> -->
+    <div class="flexbox">
+        <div class="flex-item">
+            <p>one</p>
+            <p>two</p>
+        </div> 
+        <div class="flex-item">item</div>
+        <div class="flex-item">item</div>
+        <div class="flex-item">item</div>
+    </div>
+</body>
+</html>

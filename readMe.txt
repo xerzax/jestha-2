@@ -61,3 +61,14 @@ rem - html ko font size lai samatirahhuncah usually
 em = nearest parent where font size is defiend
 tomm - github download and make an id
 parsi - flexbox padhne
+
+project-css tasks- use table and flex-margin padding
+flex box - border radius: 10 px gardei side ko curve huncha
+to google fonts- for fonts
+ctrl p - search parne kun page chahincha
+
+link href inside head
+copy code and write inside style font family in body-paste
+
+serifs- chucho vako in newpapers and all ,for web sans serif
+link cha vane family lagaidine link and if link nai chaina vane comma pachi ko family font lagcha
