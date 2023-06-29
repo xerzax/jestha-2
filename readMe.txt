@@ -72,3 +72,9 @@ copy code and write inside style font family in body-paste
 
 serifs- chucho vako in newpapers and all ,for web sans serif
 link cha vane family lagaidine link and if link nai chaina vane comma pachi ko family font lagcha
+
+for the distorted image- size bigrela for css tasks, we have object fit for
+images not to disorient. object fit cover
+display flex- to drive it to center- justify content center- align items
+body - height- 100vh - view height - device ko total
+flex direction colum garyo vane direction reverse huncha
