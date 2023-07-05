@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        height: 100px;
+        width: 100px;
+        border: 1px solid;
+      }
+
+      .static {
+        position: static;
+        /* doesnt apply left top right bottom */
+      }
+      .relative {
+        position: relative;
+        /* left: 150px; */
+        /* top: 50px; */
+        /* bottom: 10px; */
+        /* right: 10px; */
+        /* maintains original dum position */
+      }
+      .wrapper {
+        background-color: antiquewhite;
+      }
+
+      .absolute {
+        position: absolute;
+        top: 0;
+        background-color: red;
+        right: 0;
+      }
+
+      .fixed {
+        position: fixed;
+        /* top: 0; */
+        right: 0;
+        bottom: 0;
+        background-color: cyan;
+      }
+
+      .sticky {
+        position: sticky;
+        top: 0;
+        background-color: white;
+      }
+
+      nav {
+        position: sticky;
+        top: 0;
+        z-index: 99999;
+      }
+      nav ul {
+        background-color: antiquewhite;
+        display: flex;
+        gap: 1rem;
+        list-style-type: none;
+        padding-left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">about</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="box static">static</div>
+    <div class="wrapper">
+      <div class="box relative">relative</div>
+    </div>
+    <div class="box absolute">absolute</div>
+    <div class="box fixed">fixed</div>
+    <div class="box sticky">sticky</div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos rem
+      aspernatur aliquid nesciunt in blanditiis, natus ex velit, iure et
+      accusamus dolorum optio impedit recusandae esse est excepturi voluptatum
+      nam.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos rem
+      aspernatur aliquid nesciunt in blanditiis, natus ex velit, iure et
+      accusamus dolorum optio impedit recusandae esse est excepturi voluptatum
+      nam.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos rem
+      aspernatur aliquid nesciunt in blanditiis, natus ex velit, iure et
+      accusamus dolorum optio impedit recusandae esse est excepturi voluptatum
+      nam.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos rem
+      aspernatur aliquid nesciunt in blanditiis, natus ex velit, iure et
+      accusamus dolorum optio impedit recusandae esse est excepturi voluptatum
+      nam.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos rem
+      aspernatur aliquid nesciunt in blanditiis, natus ex velit, iure et
+      accusamus dolorum optio impedit recusandae esse est excepturi voluptatum
+      nam.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos rem
+      aspernatur aliquid nesciunt in blanditiis, natus ex velit, iure et
+      accusamus dolorum optio impedit recusandae esse est excepturi voluptatum
+      nam.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos rem
+      aspernatur aliquid nesciunt in blanditiis, natus ex velit, iure et
+      accusamus dolorum optio impedit recusandae esse est excepturi voluptatum
+      nam.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos rem
+      aspernatur aliquid nesciunt in blanditiis, natus ex velit, iure et
+      accusamus dolorum optio impedit recusandae esse est excepturi voluptatum
+      nam.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos rem
+      aspernatur aliquid nesciunt in blanditiis, natus ex velit, iure et
+      accusamus dolorum optio impedit recusandae esse est excepturi voluptatum
+      nam.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos rem
+      aspernatur aliquid nesciunt in blanditiis, natus ex velit, iure et
+      accusamus dolorum optio impedit recusandae esse est excepturi voluptatum
+      nam.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos rem
+      aspernatur aliquid nesciunt in blanditiis, natus ex velit, iure et
+      accusamus dolorum optio impedit recusandae esse est excepturi voluptatum
+      nam.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos rem
+      aspernatur aliquid nesciunt in blanditiis, natus ex velit, iure et
+      accusamus dolorum optio impedit recusandae esse est excepturi voluptatum
+      nam.
+    </p>
+  </body>
+</html>

@@ -78,3 +78,18 @@ images not to disorient. object fit cover
 display flex- to drive it to center- justify content center- align items
 body - height- 100vh - view height - device ko total
 flex direction colum garyo vane direction reverse huncha
+
+flex-grow- 1,2 - space utilize , in children diney property
+
+absolute- works out of dum, doesnt have its own dum, works as a layer
+fixed and aboslute ko diff- fixed always stays in the same position. absolute chai page scroll garne bela tyo sangai jancha
+research on stickyy
+
+2nd july
+anchor tag ma always default blue color text ma lagirah huncha
+
+block element huncha div elements haru
+hamile kaam garda flex wrap ma kaam garnu parcha;
+wrap:  le chai deko width ko hisab le projects lai separate or divide garera euta line ma rakhdincha
+
+tranform - ttranslate 50% afno 50% sarcha

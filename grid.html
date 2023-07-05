@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .gridbox {
+        display: grid;
+        /* grid-template-columns: 50% 50%; */
+        /* grid-template-columns: 25% 25% 25% 25%;
+        */
+        /* fr= fragment */
+        /* grid-template-columns: 1fr 2fr 1fr; */
+        /* grid-template-columns: 50px 2fr 2rem;
+        */
+        /* grid-template-columns: repeat(4,1fr); */
+        gap: 1rem;
+      }
+      .griditem {
+        height: 100px;
+        border: 1px solid;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="gridbox">
+      <!-- .itembox*5>{item-$} -->
+      <div class="griditem">item-1</div>
+      <div class="griditem">item-2</div>
+      <div class="griditem">item-3</div>
+      <div class="griditem">item-4</div>
+      <div class="griditem">item-5</div>
+      <div class="griditem">item-6</div>
+    </div>
+  </body>
+</html>

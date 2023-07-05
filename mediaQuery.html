@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *{
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+      }
+      .projects{
+          flex-wrap: wrap;
+          display: flex;
+          /* gap: 1rem; */
+          justify-content: center;
+      }
+      .project{
+          border: 1px solid black;
+          padding: 1rem;
+          width: 25%;
+          /* .5 rem = 8 px */
+          border-radius: .5rem;
+          display: inline-block;
+          /* width: 33.33%; */
+      }
+      body{
+          padding: 1rem;
+      }
+
+      hr{
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+      }
+
+      .project img{
+          /* parent ko jati width- project ko tyeti banaune */
+          width: 100%;
+          max-height: 200px;
+          object-fit: cover;
+      }
+      /* media query lai mathiko le override garna sakcha so, last ma lekhne */ 
+
+      @media (max-width:992px){
+          .project{
+              width: 50%;
+          }
+      }
+
+      @media (max-width:576px){
+          .project{
+              width: 100%;
+          }
+      }
+
+      .project:hover{
+        /* transform: translate(5px,-5px); */
+
+      }
+
+      .project:hover img{
+        transform: scale(1.1);
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <h1>Projects</h1>
+    <hr />
+    <div class="projects">
+      <div class="project">
+        <img
+          src="https://fastly.picsum.photos/id/777/536/354.jpg?hmac=_YNepSZ9iL4OIuPlFMl2LkwmxVcBd-weoPn-aDiqfxk"
+          alt="pic"
+        />
+
+        <h2>Project-1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          atque, laudantium quisquam aspernatur obcaecati illum aut libero iusto
+          id adipisci, voluptate sint. Cum blanditiis reiciendis minima adipisci
+          tempore, voluptate ipsum!
+        </p>
+      </div>
+      <div class="project">
+        <img
+          src="https://fastly.picsum.photos/id/777/536/354.jpg?hmac=_YNepSZ9iL4OIuPlFMl2LkwmxVcBd-weoPn-aDiqfxk"
+          alt="pic"
+        />
+        <h2>Project-1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          atque, laudantium quisquam aspernatur obcaecati illum aut libero iusto
+          id adipisci, voluptate sint. Cum blanditiis reiciendis minima adipisci
+          tempore, voluptate ipsum!
+        </p>
+      </div>
+      <div class="project">
+        <img
+          src="https://fastly.picsum.photos/id/777/536/354.jpg?hmac=_YNepSZ9iL4OIuPlFMl2LkwmxVcBd-weoPn-aDiqfxk"
+          alt="pic"
+        />
+        <h2>Project-3</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          atque, laudantium quisquam aspernatur obcaecati illum aut libero iusto
+          id adipisci, voluptate sint. Cum blanditiis reiciendis minima adipisci
+          tempore, voluptate ipsum!
+        </p>
+      </div>
+      <div class="project">
+        <img
+          src="https://fastly.picsum.photos/id/777/536/354.jpg?hmac=_YNepSZ9iL4OIuPlFMl2LkwmxVcBd-weoPn-aDiqfxk"
+          alt="pic"
+        />
+        <h2>Project-3</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          atque, laudantium quisquam aspernatur obcaecati illum aut libero iusto
+          id adipisci, voluptate sint. Cum blanditiis reiciendis minima adipisci
+          tempore, voluptate ipsum!
+        </p>
+      </div>
+      <div class="project">
+        <img
+          src="https://fastly.picsum.photos/id/777/536/354.jpg?hmac=_YNepSZ9iL4OIuPlFMl2LkwmxVcBd-weoPn-aDiqfxk"
+          alt="pic"
+        />
+        <h2>Project-3</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          atque, laudantium quisquam aspernatur obcaecati illum aut libero iusto
+          id adipisci, voluptate sint. Cum blanditiis reiciendis minima adipisci
+          tempore, voluptate ipsum!
+        </p>
+      </div>
+      <div class="project">
+        <img
+          src="https://fastly.picsum.photos/id/777/536/354.jpg?hmac=_YNepSZ9iL4OIuPlFMl2LkwmxVcBd-weoPn-aDiqfxk"
+          alt="pic"
+        />
+        <h2>Project-3</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          atque, laudantium quisquam aspernatur obcaecati illum aut libero iusto
+          id adipisci, voluptate sint. Cum blanditiis reiciendis minima adipisci
+          tempore, voluptate ipsum!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

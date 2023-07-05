@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* reset css */
+      * {
+        box-sizing: border-box;
+        /* margin: 0;
+        padding: 0; */
+      }
+      /* default blue color huncha a ko text ko, can be used inherit, inherits from nav ul */
+      a {
+        color: inherit;
+      }
+      .box {
+        border: 1px solid;
+        /* height: 100px; */
+        width: 100px;
+      }
+      .absolute {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+      }
+
+      .container {
+        border: 3px solid red;
+        padding: 2rem;
+        /* position: relative; */
+      }
+      .parent {
+        position: relative;
+      }
+      /* absolute searches for its relative parent , nearest relative parent element */
+      .child {
+        position: absolute;
+        top: -1rem;
+        right: -1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <br />
+    <hr />
+    <hr />
+    <hr />
+    <div class="container">
+      <div class="box parent">
+        <p>Relative</p>
+        <div class="box child small">Absolute</div>
+        <div>
+          <p>some other content</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
