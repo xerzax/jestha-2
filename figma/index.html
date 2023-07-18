@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="container">
+        <div class="logo_wrapper">
+            <img src="./assets/Vector.png" />
+            <p>Lasles VPN</p>
+        </div>
+        <div class="collapse drawer" id="drawer">
+            <img class="close-icon" id="close-icon" src="./assets/close.png" alt=""
+                onclick="document.getElementById('drawer').classList.remove('open')"
+            >
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">About </a></li>
+                    <li><a href="#">Features </a></li>
+                    <li><a href="#">Testimonials </a></li>
+                    <li><a href="#">contact </a></li>
+                    <li><a href="#">pricing </a></li>
+                </ul>
+            </nav>
+            <div class="authentication">
+                <button class="signin">sign In</button>
+                <button class="signup active">sign up</button>
+            </div>
+        </div>
+        <img onclick=" document.getElementById('drawer').classList.add('open')  " class="hamburger-menu" src="./assets/menu.png" alt="">
+    </header>
+<script src="./index.js"></script>
+</body>
+
+</html>

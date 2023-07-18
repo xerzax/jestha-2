@@ -93,3 +93,8 @@ hamile kaam garda flex wrap ma kaam garnu parcha;
 wrap:  le chai deko width ko hisab le projects lai separate or divide garera euta line ma rakhdincha
 
 tranform - ttranslate 50% afno 50% sarcha
+
+
+2ta div ma components rakhera flex use
+to make perfect circle border radius = 50% perfect circle bancha
+tailswind boostrap - framework of css- most
